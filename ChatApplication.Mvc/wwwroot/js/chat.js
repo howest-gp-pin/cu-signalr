@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Start the connection.
     var connection = new signalR.HubConnectionBuilder()
-        .withUrl('/chat')
+        .withUrl('/chathub')
         .build();
 
     // Create a function that the hub can call to broadcast messages.
